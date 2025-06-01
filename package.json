@@ -6,6 +6,8 @@
   "description": "Testing out a nobuild app using Preact.",
   "scripts": {
     "dev": "wrangler pages dev",
+    "format": "prettier . --write",
+    "format:check": "prettier --check .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/bjohn465/nobuild-preact-test#readme",
   "devDependencies": {
+    "prettier": "3.5.3",
     "wrangler": "^4.18.0"
   }
 }
