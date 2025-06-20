@@ -22,6 +22,6 @@
   "homepage": "https://github.com/bjohn465/nobuild-preact-test#readme",
   "devDependencies": {
     "prettier": "3.5.3",
-    "wrangler": "^4.20.1"
+    "wrangler": "^4.20.5"
   }
 }
